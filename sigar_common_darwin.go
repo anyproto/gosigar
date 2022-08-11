@@ -1,4 +1,6 @@
 // Copyright (c) 2012 VMware, Inc.
+//go:build !nosigar
+// +build !nosigar
 
 package gosigar
 

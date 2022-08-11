@@ -1,6 +1,7 @@
 // Copyright (c) 2012 VMware, Inc.
 
-// +build aix darwin freebsd linux
+//go:build (aix && !nosigar) || (darwin && !nosigar) || (freebsd && !nosigar) || (linux && !nosigar)
+// +build aix,!nosigar darwin,!nosigar freebsd,!nosigar linux,!nosigar
 
 package gosigar
 

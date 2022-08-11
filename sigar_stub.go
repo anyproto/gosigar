@@ -1,4 +1,5 @@
-// +build !aix,!darwin,!freebsd,!linux,!openbsd,!windows
+//go:build (!aix && !darwin && !freebsd && !linux && !openbsd && !windows) || nosigar
+// +build !aix,!darwin,!freebsd,!linux,!openbsd,!windows nosigar
 
 package gosigar
 

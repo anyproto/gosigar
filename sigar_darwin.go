@@ -1,4 +1,5 @@
-// +build !386
+//go:build !386 && !nosigar
+// +build !386,!nosigar
 
 package gosigar
 
